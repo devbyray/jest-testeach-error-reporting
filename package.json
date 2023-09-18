@@ -1,0 +1,23 @@
+{
+  "name": "jest-testeach-error-reporting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec 'ts-node' src/index.ts localhost 8080",
+    "test": "NODE_ENV=test jest"
+  },
+  "dependencies": {
+    "@types/jest": "29.5.0",
+    "@types/node": "14.14.29",
+    "jest": "29.5.0",
+    "ts-jest": "29.1.0",
+    "ts-node": "9.1.1",
+    "typescript": "4.1.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
